@@ -238,6 +238,10 @@ address { font-style: normal; margin-bottom: 0.5rem; }
 .social { display: flex; gap: 0.6rem; margin-top: 1rem !important; flex-wrap: wrap; }
 .social a { display: inline-block; border: 1px solid var(--gold); border-radius: 999px; padding: 0.3rem 0.9rem; font-size: 0.9rem; }
 .copyright { text-align: center; font-size: 0.85rem; margin: 2.5rem auto 0; max-width: none; border-top: 1px solid rgba(255, 255, 255, 0.15); padding-top: 1.25rem; }
+.copyright p { margin: 0 auto 0.4rem; max-width: none; }
+.credit { margin: 0 20% 0.4rem; max-width: none; }
+.credit a { color: var(--gold); text-decoration: underline; }
+.credit a:hover { color: var(--lavender); }
 
 /* ---------- Floating WhatsApp + toast ---------- */
 .wa-float {
